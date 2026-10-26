@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="dinr-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#be123c"/>
+      <stop offset="100%" stop-color="#881337"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="140" fill="url(#dinr-bg)"/>
+  <!-- Stylized DINR 'D' lettermark -->
+  <path
+    d="M140 100 H260 C350 100 410 165 410 256 C410 347 350 412 260 412 H140 C120 412 108 400 108 380 V132 C108 112 120 100 140 100 Z M196 168 V344 H254 C310 344 346 308 346 256 C346 204 310 168 254 168 Z"
+    fill="#ffffff"
+  />
+  <circle cx="260" cy="256" r="30" fill="#be123c" opacity="0.9"/>
+</svg>

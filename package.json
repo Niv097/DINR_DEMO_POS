@@ -1,0 +1,49 @@
+{
+    "name":  "dinr-pos",
+    "private":  true,
+    "version":  "0.1.0",
+    "description":  "POS - Offline-first Restaurant Management \u0026 Point of Sale System",
+    "author":  "DINR \u003chttps://github.com/Niv097\u003e",
+    "license":  "MIT",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/Niv097/DINR_DEMO_POS.git"
+                   },
+    "bugs":  {
+                 "url":  "https://github.com/Niv097/DINR_DEMO_POS/issues"
+             },
+    "homepage":  "https://github.com/Niv097/DINR_DEMO_POS",
+    "keywords":  [
+                     "restaurant-management",
+                     "restaurant-pos",
+                     "point-of-sale",
+                     "kitchen-display-system",
+                     "inventory-management",
+                     "self-hosted",
+                     "offline-first",
+                     "upi-payments",
+                     "gst-billing",
+                     "restaurant-payroll",
+                     "qr-ordering",
+                     "casaos",
+                     "nestjs",
+                     "nextjs"
+                 ],
+    "scripts":  {
+                    "dev":  "turbo run dev",
+                    "build":  "turbo run build",
+                    "lint":  "turbo run lint",
+                    "typecheck":  "turbo run typecheck",
+                    "test":  "turbo run test",
+                    "build-windows-msix":  "pwsh -NoProfile -File windows/msix/build-windows-msix.ps1 \u0026\u0026 pwsh -NoProfile -File windows/msix/validate-msix.ps1"
+                },
+    "devDependencies":  {
+                            "turbo":  "^2.10.9",
+                            "typescript":  "^5.9.3"
+                        },
+    "packageManager":  "pnpm@11.10.0",
+    "engines":  {
+                    "node":  "\u003e=22"
+                }
+}
+
